@@ -1,4 +1,5 @@
 #!/bin/bash
+# Make by siben.vn
 # Cloudflare's Zone ID, you can find this on the landing/overview page of your domain.
 zone_id=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 # https://dash.cloudflare.com/profile/api-tokens

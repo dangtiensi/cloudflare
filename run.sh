@@ -48,7 +48,7 @@ if [[ ${update_dns_record} != *"\"success\":true"* ]]; then
     exit 0
 fi
 
-echo "Success! `$dns_record` DNS Record Updated To: `$ip`"
+echo "Success! '$dns_record' DNS Record Updated To: '$ip'"
 
 # create file log
 echo -n "$ip" > ./ip.log
